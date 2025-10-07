@@ -24,3 +24,28 @@ body {
     cursor: pointer;
 
 }
+.top-nav {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 10;
+}
+
+.top-nav nav{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;   /* changed from block */
+    padding: 10px 12px;      /* you can keep your padding values */
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+nav a:hover {
+    color: blue; 
+    text-decoration: none;
+
+}
