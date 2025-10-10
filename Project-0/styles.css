@@ -5,7 +5,7 @@ body {
 .center-wrapper {
     min-height: 100vh;        /* fill the full viewport height */
     display: flex;
-    flex-direction: column;   /* stack input then button vertically */
+    flex-direction: column;   
     justify-content: center;  /* vertical centering */
     align-items: center;      /* horizontal centering */
 }
@@ -13,7 +13,8 @@ body {
     border-radius: 15px;
     padding: 5px 25px 5px;          
     width: 480px;            
-    max-width: 90%;          
+    max-width: 90%;  
+            
     
 }
 
@@ -24,29 +25,24 @@ body {
     cursor: pointer;
 
 }
-.top-nav {
-    position: absolute;
-    top: 18px;
-    right: 18px;
-    z-index: 10;
-    
-}
-
 .top-nav nav{
     display: flex;
     gap: 12px;
     align-items: center;
 }
-
+.top-nav {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 10;   
+}
 nav a {
-    display: inline-block;   /* changed from block */
-    padding: 10px 12px;      /* you can keep your padding values */
+    border-radius: 15px;
+    padding: 10px 12px;      
     color: white;
     text-decoration: none;
     background-color: black;
 }
 nav a:hover {
     color: blue; 
-    text-decoration: none;
-
 }
