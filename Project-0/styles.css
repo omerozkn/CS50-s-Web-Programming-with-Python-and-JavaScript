@@ -13,24 +13,22 @@ body {
     border-radius: 15px;
     padding: 5px 25px 5px;          
     width: 480px;            
-    max-width: 90%;  
-            
-    
+    max-width: 90%;
 }
-
 .search-button input[type="submit"] {
     border-radius: 15px;
     padding: 5px 15px 5px;
     margin-top: 12px;  
     cursor: pointer;
-
 }
+
 .top-nav {
     position: absolute;
     top: 18px;
     right: 18px;
     z-index: 10;       
 }
+
 .top-nav nav{
     display: flex;
     gap: 12px;
