@@ -25,17 +25,18 @@ body {
     cursor: pointer;
 
 }
+.top-nav {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 10;       
+}
 .top-nav nav{
     display: flex;
     gap: 12px;
     align-items: center;
 }
-.top-nav {
-    position: absolute;
-    top: 18px;
-    right: 18px;
-    z-index: 10;   
-}
+
 nav a {
     border-radius: 15px;
     padding: 10px 12px;      
