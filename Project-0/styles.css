@@ -52,12 +52,18 @@ nav a:hover {
     display: flex;
     flex-direction: column; 
     align-items: flex-start;
-
-    
 }
 
 .advanced-search-box{
     padding: 5px 25px 5px; 
     max-width: 90%;
-
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+}
+h1{
+    color: red;
 }
