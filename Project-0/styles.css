@@ -45,3 +45,19 @@ nav a {
 nav a:hover {
     color: blue; 
 }
+
+/*Advanced search CSS*/
+
+.left-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.advanced-search-box{
+    padding: 5px 25px 5px; 
+    max-width: 90%;
+    flex-direction: column;  
+
+}
