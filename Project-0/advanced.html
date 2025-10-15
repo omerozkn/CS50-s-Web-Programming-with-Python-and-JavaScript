@@ -8,19 +8,23 @@
     <body>
         <form class="left-wrapper" action="https://www.google.com/search">
             <h1>Advanced Search</h1>
-            <div class="advanced-search-box">
-                <div class="input_bar_as_q"></div>
-                    <label for="as_q">all these words:</label>
-                    <input type="text" name="as_q">
-                <div class="input_bar_as_epq">this exact word or phrase:</div>
-                    <label for="as_epq"></label>
-                    <input type="text" name="as_epq">
-                <div class="input_bar_as_oq">any of these words:</div>
-                    <label for="as_oq"></label>
-                    <input type="text" name="as_oq">
-                <div class="input_bar_as_eq">none of these words:</div>
-                    <label for="as_eq"></label>
-                    <input type="text" name="as_eq">
+            
+            <div class="input-row">
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q" id= "all words">
+            </div>
+            <div class="input-row">
+                <label for="exact word">this exact word or phrase:</label>
+                <input type="text" name="as_epq" id="exact word">
+            </div>
+            <div class="input-row">
+                <label for="any words">any of these words:</label>
+                <input type="text" name="as_oq" id="any words">
+            </div>
+            <div class="input-row">
+                <label for="none words">none of these words:</label>
+                <input type="text" name="as_eq" id="none words">
+            </div>
 
             </div>           
             <div class="search-button">

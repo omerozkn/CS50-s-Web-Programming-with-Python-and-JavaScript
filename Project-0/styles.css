@@ -54,7 +54,7 @@ nav a:hover {
     align-items: flex-start;
 }
 
-.advanced-search-box{
+.input-row{
     padding: 5px 25px 5px; 
     max-width: 90%;
     display: flex;
