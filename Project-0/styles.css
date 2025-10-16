@@ -48,13 +48,15 @@ nav a:hover {
 
 /*Advanced search CSS*/
 h1{
-    color: red;
+    color: rgb(181, 8, 8);
 }
 
 .left-wrapper{
     display: flex;
     flex-direction: column; 
-
+    
+    /* this coloring code is for testing purpose */
+    background-color: aqua;
     
 }
 
@@ -70,13 +72,11 @@ h1{
 
 .input-row label {
     width: 200px;
-    
 }
 
 .input-row input{
     padding: 5px 10px 5px; 
     width: 500px;
-
 }
 
 .advanced_search-button input {
@@ -85,4 +85,15 @@ h1{
     cursor: pointer;
     background-color: blue;
     color: white;
+    
 }
+
+.advanced_search-button {
+    margin-left: auto;
+
+    /* this coloring code is for testing purpose */
+    background-color: chartreuse;
+
+}
+
+
