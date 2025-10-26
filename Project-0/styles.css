@@ -48,13 +48,13 @@ nav a:hover {
 
 /*Advanced search CSS*/
 h1{
-    color: rgb(181, 8, 8);
+    color: #202124;
 }
 
 .left-wrapper{
     display: flex;
     flex-direction: column; 
-    
+    width: 730px;
     /* this coloring code is for testing purpose */
     background-color: aqua;
     
