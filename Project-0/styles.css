@@ -79,6 +79,10 @@ h1{
     width: 500px;
     border-radius: 1px
 }
+.input-row input:focus {
+    outline:none;
+    box-shadow: inset;
+}
 
 .advanced_search-button input {
     padding: 5px 15px 5px;
