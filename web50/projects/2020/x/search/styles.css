@@ -9,6 +9,28 @@ body {
     justify-content: center;  /* vertical centering */
     align-items: center;      /* horizontal centering */
 }
+body {
+    margin: 0;
+}
+/* Google logo styling */
+.google-logo {
+    margin-bottom: 20px;      /* creates space between logo and search box */
+}
+
+.google-logo img {
+    width: 272px;             /* Google's standard logo width */
+    height: 92px;             /* Google's standard logo height */
+    max-width: 90%;           /* ensures logo shrinks on small screens */
+    height: auto;             /* maintains aspect ratio when width changes */
+}
+
+.search-box input[type="text"] {
+    border-radius: 15px;
+    padding: 5px 25px 5px;          
+    width: 480px;            
+    max-width: 90%;
+}
+
 .search-box input[type="text"] {
     border-radius: 15px;
     padding: 5px 25px 5px;          
@@ -16,7 +38,7 @@ body {
     max-width: 90%;
 }
 .search-button input[type="submit"] {
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 5px 15px 5px;
     margin-top: 12px;  
     cursor: pointer;
