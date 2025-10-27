@@ -33,6 +33,7 @@ body {
     display: flex;
     gap: 12px;
     align-items: center;
+    
 }
 
 nav a {
