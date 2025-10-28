@@ -15,6 +15,7 @@ body {
 /* Google logo styling */
 .google-logo {
     margin-bottom: 20px;      /* creates space between logo and search box */
+    text-align: center
 }
 
 .google-logo img {
@@ -22,6 +23,7 @@ body {
     height: 92px;             /* Google's standard logo height */
     max-width: 90%;           /* ensures logo shrinks on small screens */
     height: auto;             /* maintains aspect ratio when width changes */
+    
 }
 
 .search-box input[type="text"] {
