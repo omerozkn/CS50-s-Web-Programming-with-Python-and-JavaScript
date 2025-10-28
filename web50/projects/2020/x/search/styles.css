@@ -23,7 +23,6 @@ body {
     height: 92px;             /* Google's standard logo height */
     max-width: 90%;           /* ensures logo shrinks on small screens */
     height: auto;             /* maintains aspect ratio when width changes */
-    
 }
 
 .search-box input[type="text"] {
@@ -32,6 +31,7 @@ body {
     width: 480px;            
     max-width: 90%;
     
+    
 }
 
 .search-button input[type="submit"] {
@@ -39,9 +39,6 @@ body {
     padding: 5px 15px 5px;
     margin-top: 12px;  
     cursor: pointer;
-    
-    
-
 }
 /*Link buttons for image and advanced search*/
 .top-nav {
