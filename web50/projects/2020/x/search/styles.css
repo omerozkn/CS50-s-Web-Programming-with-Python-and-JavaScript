@@ -31,6 +31,7 @@ body {
     padding: 5px 25px 5px;          
     width: 480px;            
     max-width: 90%;
+    
 }
 
 .search-button input[type="submit"] {
@@ -38,15 +39,17 @@ body {
     padding: 5px 15px 5px;
     margin-top: 12px;  
     cursor: pointer;
-}
+    
+    
 
+}
+/*Link buttons for image and advanced search*/
 .top-nav {
     position: absolute;
     top: 18px;
     right: 18px;
     z-index: 10;       
 }
-
 .top-nav nav{
     display: flex;
     gap: 12px;
@@ -55,7 +58,7 @@ body {
 }
 
 nav a {
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 10px 12px;      
     color: white;
     text-decoration: none;
