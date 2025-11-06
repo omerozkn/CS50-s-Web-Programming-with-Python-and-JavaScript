@@ -34,19 +34,26 @@ body {
 }
 
 .search-box input[type="text"]:hover{
-    box-shadow: 0 1px 6px #dfe1e5;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
 
+.search-box input[type="text"]:focus {
+    outline: none;
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
 .search-buttons input[type="submit"] {
     border-radius: 5px;
     padding: 5px 15px 5px;
     margin-top: 12px;  
     cursor: pointer;
     border: 1px solid #dfe1e5;
+    color: #3c4043;
 }
 
 .search-buttons input[type="submit"]:hover {
     border: 1px solid #7c7e83;
+
 }
 
 
