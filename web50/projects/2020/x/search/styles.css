@@ -9,9 +9,6 @@ body {
     justify-content: center;  /* vertical centering */
     align-items: center;      /* horizontal centering */
 }
-body {
-    margin: 0;
-}
 /* Google logo styling */
 .google-logo {
     margin-bottom: 20px;      /* creates space between logo and search box */
@@ -43,17 +40,19 @@ body {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
 .search-buttons input[type="submit"] {
-    border-radius: 5px;
-    padding: 5px 15px 5px;
-    margin-top: 12px;  
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 12px 4px;
     cursor: pointer;
-    border: 1px solid #dfe1e5;
+    border: #dfe1e5;
     color: #3c4043;
+    background-color: #f8f9fa;
 }
 
 .search-buttons input[type="submit"]:hover {
-    border: 1px solid #7c7e83;
-
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 
@@ -85,7 +84,11 @@ nav a:hover {
 
 /*Advanced search CSS*/
 h1{
-    color: #202124;
+    color: rgb(209, 10, 10);
+    font-weight: normal;
+    font-size: 20px;
+    margin: 25px 10px 25px 10px;
+
 }
 
 .left-wrapper{
