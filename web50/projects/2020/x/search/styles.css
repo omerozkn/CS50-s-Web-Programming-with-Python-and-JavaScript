@@ -45,7 +45,7 @@ body {
     padding: 10px 16px;
     margin: 12px 4px;
     cursor: pointer;
-    border: #dfe1e5;
+    border: 1px solid #dfe1e5;
     color: #3c4043;
     background-color: #f8f9fa;
 }
@@ -87,7 +87,7 @@ h1{
     color: rgb(209, 10, 10);
     font-weight: normal;
     font-size: 20px;
-    margin: 25px 10px 25px 10px;
+    margin: 25px 0;
 
 }
 
@@ -131,12 +131,20 @@ h1{
 }
 
 .advanced_search-button input {
-    padding: 5px 15px 5px;
+    padding: 8px 16px;
     margin-top: 12px;  
     cursor: pointer;
-    background-color: blue;
+    background-color: #4285f4;
     color: white;
-    
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.advanced_search-button input:hover {
+    background-color: #357ae8;
+    border: 1px solid #2b5fa2;
 }
 
 .advanced_search-button {
