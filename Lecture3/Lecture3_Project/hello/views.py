@@ -6,5 +6,5 @@ def lydia(request):
     return HttpResponse("long live lydia")
 def greet(request, name):
     return render(request, "hello/greet.html",{
-        "name": name.capitilaze()
+        "name": name.capitalize()
     } )
